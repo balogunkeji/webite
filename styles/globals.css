@@ -1,16 +1,211 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("../utilities/FONT/RobotoSlab-Black.ttf") format("truetype"),
+    url("../utilities/FONT/RobotoSlab-Bold.ttf") format("truetype"),
+    url("../utilities/FONT/RobotoSlab-ExtraBold.ttf") format("truetype"),
+    url("../utilities/FONT/RobotoSlab-ExtraLight.ttf") format("truetype"),
+    url("../utilities/FONT/RobotoSlab-Light.ttf") format("truetype"),
+    url("../utilities/FONT/RobotoSlab-Medium.ttf") format("truetype"),
+    url("../utilities/FONT/RobotoSlab-Regular.ttf") format("truetype"),
+    url("../utilities/FONT/RobotoSlab-SemiBold.ttf") format("truetype");
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-color: #e3e3e3 transparent;
+  scrollbar-width: thin;
+  text-align: left;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #e3e3e3;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #ff6600;
+}
+::-webkit-scrollbar-track {
+  background: #eff0f5;
+  border-radius: 53px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #eff0f5;
+}
+::-webkit-scrollbar-track:active {
+  background: #e3e3e3;
+}
+::-webkit-scrollbar-corner {
+  background: #e3e3e3;
+}
+
+span.typography,
+p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #061603;
+  opacity: 0.75;
+}
+
+h1.ant-typography, h1 {
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+color: #FAFAFA;
+
+}
+
+h2.ant-typography, h2 {
+  font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #061603;
+}
+
+h3.ant-typography, h3{
+  font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+color: #061603;
+}
+
+
+
+@media (max-width: 700px) {
+  h1.ant-typography, h1{
+font-size: 32px;
+line-height: 48px;
+  }
+  h2.ant-typography, h2{
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  h3.ant-typography, h3{
+    font-size: 16px;
+   line-height: 24px;
+  }
+
+  span.ant-typography,
+  p.ant-typography {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 360px) {
+  h1.ant-typography, h1{
+font-size: 30px;
+line-height: 44px;
+  }
+  h2.ant-typography, h2{
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  h3.ant-typography, h3{
+    font-size: 16px;
+   line-height: 24px;
+  }
+
+  span.ant-typography,
+  p.ant-typography {
+    font-size: 14px;
+  }
+}
+
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused,
+.ant-picker-focused {
+  border: none;
+  box-shadow: none;
+  z-index: 0;
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover,
+.ant-picker:hover {
+  border: none;
+  z-index: 0;
+}
+
+.ant-input-affix-wrapper:hover {
+  border: none;
+  z-index: 0;
+}
+.ant-select-dropdown {
+  margin-top: 20px;
+}
+.ant-select-dropdown-hidden:first-child,
+.ant-select-dropdown:first-child {
+  margin-top: 20px;
+  min-width: 150px !important;
+  width: 150px !important;
+  min-height: max-content !important;
+  padding-bottom: 20px !important;
+}
+
+.ant-select-dropdown-hidden:first-child,
+.ant-select-dropdown:first-child {
+  max-height: 400px !important;
+  overflow: auto !important;
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: #040e23;
+  color: white;
+}
+
+.ant-select-single .ant-select-selector .ant-select-selection-item {
+  font-size: 14px;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.cart {
+  padding-top: 100px;
 }
