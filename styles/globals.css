@@ -95,7 +95,7 @@ p {
 
 h1.ant-typography,
 h1 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -105,7 +105,7 @@ h1 {
 
 h2.ant-typography,
 h2 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
