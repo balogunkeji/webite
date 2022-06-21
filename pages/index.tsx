@@ -58,7 +58,7 @@ const Home: NextPage = () => {
                 style={{marginLeft: '20px'}}
                 className='h1'
               >
-                <Title level={1}>
+                <Title level={1} style={{color: ' #FAFAFA'}}>
                   A Global Commodity Trading <br /> Company
                 </Title>
                 <Text className="span">
