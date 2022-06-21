@@ -125,6 +125,9 @@ export const HomeStyle = styled.div`
     @media (max-width: 800px) {
       flex-direction: column-reverse;
     }
+    @media (max-width: 700px) {
+      padding: 60px 5px 30px 5px;
+    }
     .text {
       display: flex;
       width: 50%;
