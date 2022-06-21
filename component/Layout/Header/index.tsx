@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { defaultPaths } from './path';
-import router, { useRouter } from 'next/router';
+import  { useRouter } from 'next/router';
 import { HeaderWrapper, MobileDrawer } from './style';
 import { Layout } from 'antd';
 import { FlexibleDiv } from '../../Box/styles';
