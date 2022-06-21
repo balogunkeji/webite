@@ -147,7 +147,8 @@ export const HomeStyle = styled.div`
             margin: 10px 0;
           }
         }
-        @media (max-width: 375px) {
+        @media (max-width: 480px) {
+          padding: 0 0 0 5px;
           h2{
             margin-top: 0;
           }
