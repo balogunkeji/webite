@@ -77,7 +77,7 @@ p {
   opacity: 0.75;
 }
 
-h1.ant-typography {
+h1.ant-typography, h1 {
 font-family: 'Roboto Slab';
 font-style: normal;
 font-weight: 700;
@@ -87,7 +87,7 @@ color: #FAFAFA;
 
 }
 
-h2.ant-typography {
+h2.ant-typography, h2 {
   font-family: 'Roboto Slab';
 font-style: normal;
 font-weight: 700;
@@ -155,46 +155,9 @@ line-height: 44px;
   z-index: 0;
 }
 
-.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover,
-.ant-picker:hover {
-  border: none;
-  z-index: 0;
-}
-
 .ant-input-affix-wrapper:hover {
   border: none;
   z-index: 0;
-}
-.ant-select-dropdown {
-  margin-top: 20px;
-}
-.ant-select-dropdown-hidden:first-child,
-.ant-select-dropdown:first-child {
-  margin-top: 20px;
-  min-width: 150px !important;
-  width: 150px !important;
-  min-height: max-content !important;
-  padding-bottom: 20px !important;
-}
-
-.ant-select-dropdown-hidden:first-child,
-.ant-select-dropdown:first-child {
-  max-height: 400px !important;
-  overflow: auto !important;
-}
-
-.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
-  background-color: #040e23;
-  color: white;
-}
-
-.ant-select-single .ant-select-selector .ant-select-selection-item {
-  font-size: 14px;
-}
-
-.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
-  background-color: transparent;
-  color: rgba(0, 0, 0, 0.85);
 }
 
 input::-webkit-outer-spin-button,

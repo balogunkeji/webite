@@ -58,9 +58,9 @@ const Home: NextPage = () => {
                 style={{marginLeft: '20px'}}
                 className='h1'
               >
-                <Title level={1} style={{color: ' #FAFAFA'}}>
+                <h1>
                   A Global Commodity Trading <br /> Company
-                </Title>
+                </h1>
                 <Text className="span">
                   At Azaman Global, we source for and trade Agro and Metal
                   commodities <br />
@@ -96,10 +96,10 @@ const Home: NextPage = () => {
               flexDir='column'
               
             >
-              <Title level={2}>
+              <h2>
                 Shaping the world by meeting <br />
                 economical needs
-              </Title>
+              </h2>
               <p>
                 We have seen how commodities like Agricultural products, Metals
                 and Minerals have shaped the world. Virtually all that is <br />
@@ -142,7 +142,7 @@ const Home: NextPage = () => {
           <FlexibleDiv className='card_sub' justifyContent='space-evenly'>
             <div className='cards'>
               <Image src={Bulb} alt='icon' quality={100} />
-              <Title level={3}>We Source</Title>
+              <h3>We Source</h3>
               <p>
                 As a link between primary producers and <br /> consumers, we
                 carefully source for <br />
@@ -195,7 +195,7 @@ const Home: NextPage = () => {
                   objectFit='cover'
                 />
                 <div className='card_text'>
-                  <Title level={3}>Metal commodities</Title>
+                  <h3>Metal commodities</h3>
                   <p>
                     We currently deal with the trading of metals such as Tin,
                     Lead, Zinc, and Manganese.
@@ -212,7 +212,7 @@ const Home: NextPage = () => {
                 />
 
                 <div className='card_text'>
-                  <Title level={3}>Agricultural commodities</Title>
+                  <h3>Agricultural commodities</h3>
                   <p>
                     We offer the trading of crops like paddy rice, and cashew
                     nuts.
