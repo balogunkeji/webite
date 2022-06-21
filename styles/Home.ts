@@ -90,10 +90,10 @@ export const HomeStyle = styled.div`
           margin: 210px auto 0 80px;
         }
         @media (max-width: 700px) {
-          margin: 200px auto 0 auto;
+          margin: 200px  0;
         }
         @media (max-width: 515px) {
-          margin: 150px auto 0 auto;
+          margin: 150px 0;
         }
 
         h1{

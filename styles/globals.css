@@ -1,7 +1,7 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
 
 @font-face {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   src: url("../utilities/FONT/RobotoSlab-Black.ttf") format("truetype"),
     url("../utilities/FONT/RobotoSlab-Bold.ttf") format("truetype"),
     url("../utilities/FONT/RobotoSlab-ExtraBold.ttf") format("truetype"),
@@ -13,8 +13,8 @@
 }
 
 @font-face {
-  font-family: 'Roboto', sans-serif;
-  src: url('../utilities/FONT/Roboto-Black.ttf') format("truetype"),
+  font-family: "Roboto", sans-serif;
+  src: url("../utilities/FONT/Roboto-Black.ttf") format("truetype"),
     url("../utilities/FONT/Roboto-BlackItalic.ttf") format("truetype"),
     url("../utilities/FONT/Roboto-Bold.ttf") format("truetype"),
     url("../utilities/FONT/Roboto-BoldItalic.ttf") format("truetype"),
@@ -25,7 +25,7 @@
     url("../utilities/FONT/Roboto-MediumItalic.ttf") format("truetype"),
     url("../utilities/FONT/Roboto-Regular.ttf") format("truetype"),
     url("../utilities/FONT/Roboto-Thin.ttf") format("truetype"),
-    url("../utilities/FONT/Roboto-ThinItalic.ttf") format("truetype"),
+    url("../utilities/FONT/Roboto-ThinItalic.ttf") format("truetype");
 }
 
 *,
@@ -83,7 +83,7 @@ body {
 
 span.ant-typography,
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -93,47 +93,51 @@ p {
   opacity: 0.75;
 }
 
-h1.ant-typography, h1 {
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 64px;
-color: #FAFAFA;
-
-}
-
-h2.ant-typography, h2 {
-  font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 48px;
-color: #061603;
-}
-
-h3.ant-typography, h3{
+h1.ant-typography,
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
   font-weight: 700;
-font-size: 20px;
-line-height: 32px;
-color: #061603;
+  font-size: 48px;
+  line-height: 64px;
+  color: #fafafa;
 }
 
+h2.ant-typography,
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #061603;
+}
 
+h3.ant-typography,
+h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #061603;
+}
 
 @media (max-width: 700px) {
-  h1.ant-typography, h1{
-font-size: 32px;
-line-height: 48px;
+  h1.ant-typography,
+  h1 {
+    font-size: 32px;
+    line-height: 48px;
   }
-  h2.ant-typography, h2{
+  h2.ant-typography,
+  h2 {
     font-size: 24px;
     line-height: 32px;
   }
 
-  h3.ant-typography, h3{
+  h3.ant-typography,
+  h3 {
     font-size: 16px;
-   line-height: 24px;
+    line-height: 24px;
   }
 
   span.ant-typography,
@@ -143,18 +147,21 @@ line-height: 48px;
 }
 
 @media (max-width: 360px) {
-  h1.ant-typography, h1{
-font-size: 30px;
-line-height: 44px;
+  h1.ant-typography,
+  h1 {
+    font-size: 30px;
+    line-height: 44px;
   }
-  h2.ant-typography, h2{
+  h2.ant-typography,
+  h2 {
     font-size: 24px;
     line-height: 32px;
   }
 
-  h3.ant-typography, h3{
+  h3.ant-typography,
+  h3 {
     font-size: 16px;
-   line-height: 24px;
+    line-height: 24px;
   }
 
   span.ant-typography,
