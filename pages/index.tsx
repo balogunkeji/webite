@@ -61,13 +61,13 @@ const Home: NextPage = () => {
                 <h1>
                   A Global Commodity Trading <br /> Company
                 </h1>
-                <Text className="span">
+                <p className="span">
                   At Azaman Global, we source for and trade Agro and Metal
                   commodities <br />
                   to meet the needs of our customers across the globe and
                   develop <br />
                   economies across nations.
-                </Text>
+                </p>
                 <Button
                   type='text'
                   htmlType='submit'
