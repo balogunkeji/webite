@@ -14,8 +14,8 @@
 
 @font-face {
   font-family: 'Roboto', sans-serif;
-  src: url("../utilities/FONT/Roboto-Black.ttf") format("truetype"),
-    url("../utilities/FONT/Robot-BlackItalic.ttf") format("truetype"),
+  src: url('../utilities/FONT/Roboto-Black.ttf') format("truetype"),
+    url("../utilities/FONT/Roboto-BlackItalic.ttf") format("truetype"),
     url("../utilities/FONT/Roboto-Bold.ttf") format("truetype"),
     url("../utilities/FONT/Roboto-BoldItalic.ttf") format("truetype"),
     url("../utilities/FONT/Roboto-Italic.ttf") format("truetype"),
@@ -25,7 +25,7 @@
     url("../utilities/FONT/Roboto-MediumItalic.ttf") format("truetype"),
     url("../utilities/FONT/Roboto-Regular.ttf") format("truetype"),
     url("../utilities/FONT/Roboto-Thin.ttf") format("truetype"),
-    url("../utilities/FONT/Roboto-ThinItalic.ttf") format("truetype");
+    url("../utilities/FONT/Roboto-ThinItalic.ttf") format("truetype"),
 }
 
 *,
